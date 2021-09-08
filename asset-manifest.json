@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Yugioh-api/static/css/main.4593d454.chunk.css",
+    "main.js": "/Yugioh-api/static/js/main.f339c4af.chunk.js",
+    "main.js.map": "/Yugioh-api/static/js/main.f339c4af.chunk.js.map",
+    "runtime-main.js": "/Yugioh-api/static/js/runtime-main.b8cb2d7d.js",
+    "runtime-main.js.map": "/Yugioh-api/static/js/runtime-main.b8cb2d7d.js.map",
+    "static/js/2.b23f3760.chunk.js": "/Yugioh-api/static/js/2.b23f3760.chunk.js",
+    "static/js/2.b23f3760.chunk.js.map": "/Yugioh-api/static/js/2.b23f3760.chunk.js.map",
+    "static/js/3.6dcc94ca.chunk.js": "/Yugioh-api/static/js/3.6dcc94ca.chunk.js",
+    "static/js/3.6dcc94ca.chunk.js.map": "/Yugioh-api/static/js/3.6dcc94ca.chunk.js.map",
+    "index.html": "/Yugioh-api/index.html",
+    "static/css/main.4593d454.chunk.css.map": "/Yugioh-api/static/css/main.4593d454.chunk.css.map",
+    "static/js/2.b23f3760.chunk.js.LICENSE.txt": "/Yugioh-api/static/js/2.b23f3760.chunk.js.LICENSE.txt",
+    "static/media/logo.726bedcb.png": "/Yugioh-api/static/media/logo.726bedcb.png",
+    "static/media/yugi.9efd0904.png": "/Yugioh-api/static/media/yugi.9efd0904.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b8cb2d7d.js",
+    "static/js/2.b23f3760.chunk.js",
+    "static/css/main.4593d454.chunk.css",
+    "static/js/main.f339c4af.chunk.js"
+  ]
+}
