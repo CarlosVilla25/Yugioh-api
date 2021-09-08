@@ -1,0 +1,39 @@
+.search-container {
+  position: relative;
+}
+
+.search-container-autocomplete {
+  width: 300px;
+}
+
+.search-container-autocomplete label,
+.search-container-autocomplete .MuiInputBase-input,
+.search-container-autocomplete .MuiFormLabel-root.Mui-focused,
+.search-container-autocomplete .MuiAutocomplete-endAdornment button {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.search-container-autocomplete .MuiOutlinedInput-notchedOutline,
+.search-container-autocomplete
+  .MuiOutlinedInput-root.Mui-focused
+  .MuiOutlinedInput-notchedOutline {
+  border-color: rgba(255, 255, 255, 0.7);
+}
+
+.search-container-autocomplete
+  .MuiOutlinedInput-root:hover
+  .MuiOutlinedInput-notchedOutline {
+  border-color: rgba(255, 255, 255, 0.7);
+}
+
+.search-container-collapse {
+  bottom: 0;
+  position: absolute;
+  right: 0;
+  width: 300px;
+}
+
+.search-container .MuiButton-containedPrimary {
+  background-color: #003287;
+  color: rgb(255, 255, 255);
+}

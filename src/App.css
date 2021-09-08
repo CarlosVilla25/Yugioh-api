@@ -1,38 +1,113 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Harmattan&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.app-container {
+  grid-template-rows: auto 1fr auto;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+}
+
+.navbar-container {
   align-items: center;
+  display: flex;
+  height: 139px;
+  justify-content: space-between;
+  margin: 50px auto 30px;
+  width: 1243px;
+}
+
+.navbar-container .nav-link img {
+  height: 138px;
+  width: 387px;
+}
+
+.navbar-container nav {
+  width: 487px;
+}
+
+.navbar-container ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  padding: 0;
+}
+
+.navbar-container nav ul li .nav-link {
+  color: rgba(255, 255, 255, 0.7);
+  letter-spacing: 7.2px;
+  font-family: 'Harmattan', sans-serif;
+  font-size: 36px;
+  text-decoration: none;
+}
+
+.navbar-container nav ul li:hover {
+  transform: scale(1.09);
+}
+
+.navbar-container nav ul li span:hover {
+  color: #003287;
+}
+
+footer {
+  bottom: 30px;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  position: relative;
 }
 
-.App-link {
-  color: #61dafb;
+footer p {
+  color: rgba(255, 255, 255, 0.7);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+footer p a {
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 1280px) {
+  .navbar-container {
+    flex-direction: column;
+    margin: 50px auto 0;
+    width: 100%;
   }
-  to {
-    transform: rotate(360deg);
+
+  .navbar-container nav {
+    width: 80%;
+  }
+
+  .navbar-container .nav-link {
+    text-align: center;
+    width: 100%;
+  }
+
+  .navbar-container .nav-link img {
+    height: 69px;
+    width: 193.5px;
+  }
+
+  .navbar-container nav ul li .nav-link {
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+  }
+
+  .home-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .home-container h1 {
+    font-size: 2.2rem;
+    letter-spacing: 1.5rem;
+    margin: 0;
+    stroke: #000;
+    text-align: center;
+    text-shadow: 0.7rem 0.7rem 0.5rem rgba(0, 0, 0, 0.2);
+    -webkit-text-stroke: 1.5px #000;
+  }
+
+  .home-container img {
+    justify-content: space-around;
+    margin-bottom: 50px;
+    width: 220px;
   }
 }

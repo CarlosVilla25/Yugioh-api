@@ -1,0 +1,2 @@
+const GET_CARDS = 'GET_CARDS';
+const GET_ONE_CARD = 'GET_ONE_CARD';

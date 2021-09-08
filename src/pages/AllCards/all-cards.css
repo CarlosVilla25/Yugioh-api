@@ -1,0 +1,10 @@
+.pagination-container ul li button {
+  background-color: transparent;
+  color: #fff;
+}
+
+.pagination-container ul li .Mui-selected {
+  background-color: #fff;
+  border: 3px solid #000;
+  color: #000;
+}
